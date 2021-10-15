@@ -5,7 +5,7 @@ export function createHtml(article) {
               <h4>${article.title}</h4>
               <p><span>Author:</span> ${article.author}</p>
               <p><span>Summary:</span> ${article.summary}</p>
-              <button data-item="${article.id}">Hide/show</button>
+              <button data-id="${article.id}">Hide/show</button>
           </div>`;
 }
 
