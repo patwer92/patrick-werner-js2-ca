@@ -9,8 +9,8 @@ let allArticles = [];
 
 async function setup() {
   allArticles = await getFromApi();
-  createListHtml(allArticles);
   searchArticle(allArticles);
+  createListHtml(allArticles);
   const buttons = document.querySelectorAll("i");
   buttons.forEach((button) => {
     button.addEventListener("click", handleClick);
