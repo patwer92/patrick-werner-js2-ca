@@ -11,6 +11,6 @@ export async function getFromApi() {
   } catch (error) {
     console.log(error);
     container.innerHTML = "";
-    displayMessage("error", error, ".message-container");
+    displayMessage("error", error, ".container");
   }
 }
