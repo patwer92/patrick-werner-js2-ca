@@ -79,7 +79,7 @@ nav ul li {
 
 .search {
   position: absolute;
-  top: 15rem;
+  top: 14rem;
   height: 4rem;
   width: 35rem;
   padding-left: 1rem;
@@ -92,7 +92,7 @@ nav ul li {
 }
 
 .container {
-  margin-top: 15rem;
+  margin-top: 12rem;
   height: 100%;
   width: 70vw;
   display: flex;
